@@ -20,7 +20,9 @@ $ cat ./testcases/t10 | python3 ./solution.py
 ```
 3. Automatically check the solution on a Linux terminal using the following command:
 
-{ cat ./testcases/t1 ; cat ./testcases/t1 | python3 ./solution.py ; } | ./maze_checker
+```
+$ { cat ./testcases/t1 ; cat ./testcases/t1 | python3 ./solution.py ; } | ./maze_checker
+```
 
 
 **If the output shows "pass xxx"(xxx is length of the longest path), that mean the solution is correct**
