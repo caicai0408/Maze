@@ -23,4 +23,4 @@ $ cat ./testcases/t10 | python3 ./solution.py
 { cat ./testcases/t1 ; cat ./testcases/t1 | python3 ./solution.py ; } | ./maze_checker
 
 
-**If the output shows "pass XXX"(The length of the longest path), that mean the solution is correct**
+**If the output shows "pass xxx"(xxx is length of the longest path), that mean the solution is correct**
